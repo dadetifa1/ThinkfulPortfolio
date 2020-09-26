@@ -1,0 +1,89 @@
+/* bring in the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap');
+
+/* This seem to help width fill the screen when viewing on a smaller device */
+.wrapper {
+
+  overflow-x:hidden;
+}
+
+/* Header */
+
+header {
+  background-color: #6b655b;
+  margin-bottom: 40px;
+  display: block;
+}
+
+main h2 {
+  font-size: 28px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+
+
+header h1 {
+  color: #eff0e5;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 56px;
+}
+
+
+/* Group and Items mobile first  */
+
+.group{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+
+.group-no-mg{
+	margin-bottom: 0px;
+}
+
+.item{
+	flex: 1;
+  margin: 10px;
+}
+
+.item-double{
+	flex: 2;
+  margin: 10px;
+}
+
+/* styling about section */
+.about-h2 {
+	padding-left: 10px;
+	padding-top: 50px;
+	margin-bottom: 0;
+}
+
+.bottom-margin {
+	padding-bottom: 30px;
+}
+
+/* This applies from 600px and larger */
+@media all and (min-width: 600px) {
+   article, h1 {
+     padding: 0 10%;
+   }
+
+   .group {
+     flex-direction: row;
+   }
+}
+
+.item img{
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+.bg-dark {
+  background-color: #c5c0b8;
+}
