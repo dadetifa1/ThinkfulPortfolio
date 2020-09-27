@@ -85,8 +85,8 @@ main h2 {
 	padding-bottom: 30px;
 }
 
-/* This applies from 600px and larger */
-@media all and (min-width: 600px) {
+/* This applies from 800px and larger */
+@media all and (min-width: 800px) {
    article{
      padding: 0 10%;
    }
