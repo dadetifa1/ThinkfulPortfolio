@@ -1,0 +1,138 @@
+/* bring in the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap');
+
+/* This seem to help width fill the screen when viewing on a smaller device */
+.wrapper {
+
+  overflow-x:hidden;
+}
+
+/* Header */
+
+header {
+  background-color: #6b655b;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: #eff0e5;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 56px;
+  text-align: center;
+}
+
+header nav{
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul{
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+}
+
+header nav ul li a{
+	color: #eff0e5;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+
+main h2 {
+  font-size: 28px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+
+
+
+
+
+/* Group and Items mobile first  */
+
+.group{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+
+.group-no-mg{
+	margin-bottom: 0px;
+}
+
+.item{
+	flex: 1;
+  margin: 10px;
+}
+
+.item-double{
+	flex: 2;
+  margin: 10px;
+}
+
+/* styling about section */
+.about-h2 {
+	padding-left: 10px;
+	padding-top: 50px;
+	margin-bottom: 0;
+}
+
+.bottom-margin {
+	padding-bottom: 30px;
+}
+
+/* This applies from 600px and larger */
+@media all and (min-width: 600px) {
+   article{
+     padding: 0 10%;
+   }
+
+   .group {
+     flex-direction: row;
+   }
+   
+   header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  
+  header nav{
+	  margin-top: 10px;
+  }
+  
+  header h1{
+	padding-top: 0;	
+	font-size: 42px;
+	margin: 15px 0;
+  }
+}
+
+.item img{
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+.bg-dark {
+  background-color: #c5c0b8;
+}
+
+form input, form textarea{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#contact .item{
+	padding-right: 40px;
+}
+
+.space-section {
+	margin-bottom: 80px;
+}
