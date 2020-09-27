@@ -10,27 +10,35 @@
 	<body>
 		<header>
 			<h1>Bamidele Adetifa</h1>
+			<nav>
+				<ul>
+					<li><a href="#intro">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#Portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 		</header>
 		
 		<main>
 			<div class="wrapper">
 			<!-- intro  -->
-			<article>
+			<article id="intro">
 				<div class="group">
 				  <div class="item">
 					<img src="images/my-only.jpg" alt="Me!!!">
 				  </div>
 				  <div class="item">
 					<h2>Hello. I'm Bamidele Adetifa!</h2>
-					<p>I go by Dele, that seems to be easier for everyone. The name is of Nigerian decent.  I went to school for networking however to go into that program it required two programming courses.  Fortunately for me I found out I loved programming better.</p>
+					<p>I go by Dele, that seems to be earier for everyone. The name is of nigerian decent.  I went to school for networking however to go into that program it required two programming courses.  Fortunately for me I found out I loved programming better.</p>
 
-					<p>Since graduation from the University of Wisconsin (River Falls), I find that I like reading, working out, socializing and coding.  Thanks for stopping by!</p>
+					<p>Since graduation from the University of Wisconsion (River Falls), I find that I like reading, working out, socializing and coding.  Thanks for stopping by!</p>
 				  </div>
 				</div>
 			</article>
 
 			<!-- about me -->
-			<article class="bg-dark bottom-margin">
+			<article class="bg-dark bottom-margin space-section" id="about">
 				<h2 class="about-h2">About me</h2>
 				<div class="group group-no-mg">
 				  <div class="item-double">
@@ -49,7 +57,7 @@
 			</article>
 
 			<!-- Portfolio -->
-			<article>
+			<article id="Portfolio" class="space-section">
 				<h2>Portfolio</h2>
 				<div class="group group-no-mg">
 					<div class="item">
@@ -94,17 +102,28 @@
 			</article>
 
 			<!-- Contact me -->
-			<article>
+			<article id="contact">
 				<h2>Contact</h2>
 				<div class="group">
 				  <div class="item">
-					<p>Content Form Here</p>
+					<h3>Send me a message</h3>
+					<form action="https://formspree.io/xpzowqyw" method="POST">
+					  <label for="user-name">Name:</label>
+					  <input id="user-name" type="text" name="name">
+
+					  <label for="user-email">Email:</label>
+					  <input id="user-email" type="text" name="email">
+
+					  <label for="user-message">Message:</label>
+					  <textarea id="user-message" name="message"></textarea>
+					  <button type="submit">Submit</button>
+					</form>
 				  </div>
-				  <div class="item">					
-					<p><a href = "mailto:dadetifa1@yahoo.com">Email</a><p>
-					<p><a href="https://www.linkedin.com/in/bamidele-adetifa-110aa33a/" target="_blank">LinkedIn</a></p>
+				  <div class="item-double">					
+					<p><a href = "mailto: dadetifa1@yahoo.com">Email</a><p>
+					<p><a href="https://www.linkedin.com/in/bamidele-adetifa-110aa33a/" target="_blank">Linkedln</a></p>
 					<p><a href="https://github.com/dadetifa1" target="_blank">Github</a></p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90374.26786202694!2d-93.17626482170361!3d44.939685990413736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d4cee4e9379f%3A0xc87291d23fda2e29!2sSt%20Paul%2C%20MN!5e0!3m2!1sen!2sus!4v1601160321469!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90374.26786202694!2d-93.17626482170361!3d44.939685990413736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d4cee4e9379f%3A0xc87291d23fda2e29!2sSt%20Paul%2C%20MN!5e0!3m2!1sen!2sus!4v1601160321469!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				  </div>
 				</div>
 			</article>
