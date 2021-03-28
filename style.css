@@ -111,6 +111,11 @@ main h2 {
 	font-size: 42px;
 	margin: 15px 0;
   } 
+	
+  .portfolio {
+  margin-top: 2em;
+  margin-right: 4em;
+}
 }
 
 
