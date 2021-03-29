@@ -149,7 +149,7 @@ form input, form textarea{
 @media all and (min-width: 300px) {
 	.portfolio {
            margin-top: 2em;
-           margin-right: 4em;
+           margin-right: .5em;
 	}
 }
 
